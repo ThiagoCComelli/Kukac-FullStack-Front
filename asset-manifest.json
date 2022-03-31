@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Kukac-FullStack-Front/static/css/main.4bc97267.css",
+    "main.js": "/Kukac-FullStack-Front/static/js/main.51b92a2f.js",
+    "index.html": "/Kukac-FullStack-Front/index.html",
+    "main.4bc97267.css.map": "/Kukac-FullStack-Front/static/css/main.4bc97267.css.map",
+    "main.51b92a2f.js.map": "/Kukac-FullStack-Front/static/js/main.51b92a2f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4bc97267.css",
+    "static/js/main.51b92a2f.js"
+  ]
+}
