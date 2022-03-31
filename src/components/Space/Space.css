@@ -1,0 +1,27 @@
+
+.mainSpace {
+  width: 100%;
+  height: 150px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+.mainSpaceContent {
+  width: 100%;
+  max-width: 1300px;
+}
+
+.mainSpace span {
+  font-size: 2.4rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  gap: 10px;
+  display: flex;
+}
+
+.mainSpace strong {
+  color: #6F65EA;
+}

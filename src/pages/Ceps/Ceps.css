@@ -1,0 +1,87 @@
+.mainCeps {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.mainCepsBox {
+  width: 100%;
+  max-width: 1200px;
+  padding: 50px 20px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainCepsBox strong {
+  color: #6F65EA;
+  font-size: 2rem;
+}
+
+.mainCepsBoxContent {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.mainCepsBoxContent > div {
+  padding: 10px;
+}
+
+.mainCepsBoxOptions {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.3rem;
+  width: 100%;
+  flex: 1;
+}
+
+.mainCepsBoxOptions input {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.mainCepsBoxOptions button {
+  width: 100%;
+  padding: 5px 10px;
+  border: solid 1px #6F65EA;
+  color: #6F65EA;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.mainCepsBoxContentResult {
+  display: flex;
+  flex: 4;
+  width: 100%;
+  flex-direction: column;
+}
+
+.mainCepsBoxContentResultItems {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.mainCepItem {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.mainCepItemSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainCepItemSection strong {
+  font-size: 1rem;
+}

@@ -1,0 +1,89 @@
+.mainCedules {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.mainCedulesBox {
+  width: 100%;
+  max-width: 1200px;
+  padding: 50px 20px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainCedulesBox strong {
+  color: #6F65EA;
+  font-size: 2rem;
+}
+
+.mainCedulesBoxContent {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.mainCedulesBoxContent > div {
+  padding: 10px;
+}
+
+.mainCedulesBoxOptions {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.3rem;
+  width: 100%;
+  flex: 1;
+}
+
+.mainCedulesBoxOptions input {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.mainCedulesBoxOptions button {
+  width: 100%;
+  padding: 5px 10px;
+  border: solid 1px #6F65EA;
+  color: #6F65EA;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.mainCedulesBoxContentResult {
+  display: flex;
+  flex: 4;
+  width: 100%;
+  flex-direction: column;
+}
+
+.mainCedulesBoxContentResultItems {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.mainCeduleItem {
+  cursor: pointer;
+  padding: 5px 15px;
+  background-color: #fff;
+  border-radius: 20px;
+  border: solid 1px rgba(128, 128, 128, 0.144);
+  transition: all .1s linear;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.mainCeduleItem strong {
+  font-size: 1.5rem;
+}
+
+.mainCeduleItem:hover {
+  border-color: #6F65EA;
+}
