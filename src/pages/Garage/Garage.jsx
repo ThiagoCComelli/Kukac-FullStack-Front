@@ -18,14 +18,16 @@ const Garage = () => {
 
     const response = await saveVehicle(vehicle)
 
+    console.log(response)
+
     try {
       if (response.data.fileSaved) {
         NotificationHelper.notificationRef.current.newNotification({title: "Sucesso!", description: "Veiculo adicionado ao banco de dados"})
       } else {
-        NotificationHelper.notificationRef.current.newNotification({title: "Falha!", description: "Veiculo não foi adicionado ao banco de dados"})
+        NotificationHelper.notificationRef.current.newNotification({title: "Falha!", description: "Veiculo não foi adicionado ao banco de dados./1"})
       }
     } catch (err) {
-      NotificationHelper.notificationRef.current.newNotification({title: "Falha!", description: "Veiculo não foi adicionado ao banco de dados"})
+      NotificationHelper.notificationRef.current.newNotification({title: "Falha!", description: "Veiculo não foi adicionado ao banco de dados./2"})
     }
   }
 
