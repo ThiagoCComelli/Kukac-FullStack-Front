@@ -1,7 +1,7 @@
 import axios from 'axios'
 
-const url = "https://kukac-fullstack.herokuapp.com/noAuth/newVehicle"
-// const url = "http://localhost:3100/noAuth/palindrome"
+// const url = "https://kukac-fullstack.herokuapp.com/noAuth/newVehicle"
+const url = "http://localhost:3100/noAuth/newVehicle"
 
 const saveVehicle = async (config) => {
   try {

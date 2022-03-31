@@ -1,7 +1,7 @@
 import axios from 'axios'
 
-const url = "https://kukac-fullstack.herokuapp.com/noAuth/ceps"
-// const url = "http://localhost:3100/noAuth/ceps"
+// const url = "https://kukac-fullstack.herokuapp.com/noAuth/ceps"
+const url = "http://localhost:3100/noAuth/ceps"
 
 const getAllCeps = async (config) => {
   console.log(config)

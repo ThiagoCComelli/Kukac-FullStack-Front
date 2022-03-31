@@ -1,7 +1,7 @@
 import axios from 'axios'
 
-const url = "https://kukac-fullstack.herokuapp.com/noAuth/palindrome"
-// const url = "http://localhost:3100/noAuth/palindrome"
+// const url = "https://kukac-fullstack.herokuapp.com/noAuth/palindrome"
+const url = "http://localhost:3100/noAuth/palindrome"
 
 const getAllPalindromes = async (config) => {
   try {

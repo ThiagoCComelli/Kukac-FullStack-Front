@@ -1,7 +1,7 @@
 import axios from 'axios'
 
-const url = "https://kukac-fullstack.herokuapp.com/noAuth/checkoutCounter"
-// const url = "http://localhost:3100/noAuth/palindrome"
+// const url = "https://kukac-fullstack.herokuapp.com/noAuth/checkoutCounter"
+const url = "http://localhost:3100/noAuth/checkoutCounter"
 
 const getAllCedules = async (config) => {
   try {
